@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="short icon" href="coffee.png">
+</head>
+<body>
+    <main class="container">
+
+        <h2>Fila do Café</h2>
+        <div class="logo-media">
+            <a href="#">
+                <img src="coff.png" alt="coffee">
+            </a>
+        </div> 
+
+        <div class="c-box">
+
+            <div class="cad-box">
+                <span class="coff-icon"></span>
+                <div class="caf-name">Adicionar à fila:</div>
+                <input id="cliente" class="name" type="text" placeholder="Nome do cliente" />
+                
+                
+            </div>
+
+
+            <button onclick="adicionar()">Adicionar</button>
+            <button onclick="remover()">Atendido</button>
+
+        </div>
+    </main>
+
+    <div class="containerdois">
+        <ul id="lista" >
+        </ul>
+        </div>
+
+    <section class="images">
+        <img src="cofft.jpg">
+    </section>
+<script src="fila.js" ></script>
+</body>
+</html>

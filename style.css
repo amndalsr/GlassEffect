@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    color: white;
+}
+body{
+    background: linear-gradient(#050105e5, #251a25fd);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main.container{
+    max-width: 400px;
+    min-height: 20vw;
+    padding: 2rem;
+    box-shadow: 0 8px 32px 0 rgba(164, 166, 212, 0.267);
+    backdrop-filter: blur( 3.5px );
+    -webkit-backdrop-filter: blur( 3.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+button{
+    margin-top: 2rem;
+    padding: 0.4rem;
+    cursor: pointer;
+    font-size: 0.9rem;
+    color: black;
+    font-weight: 900;
+    border-radius: 2px;
+    padding: 6px 15px;
+    border: 0;
+    opacity: 0.3;
+}
+
+section.images{
+    position: absolute;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+input.name{
+    width: 220px;
+    height: 28px;
+    font-size: 0.9rem;
+    color: black;
+    font-weight: 900;
+    opacity: 0.4;
+    border-radius: 2px;
+    padding: 6px 15px;
+    border: 0;
+}
+.containerdois{
+    max-width: 900px;
+    min-height: 20vw;
+    padding: 2rem;
+    box-shadow: 0 8px 32px 0 rgba(164, 166, 212, 0.267);
+    backdrop-filter: blur( 3.5px );
+    -webkit-backdrop-filter: blur( 3.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
