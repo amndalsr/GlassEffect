@@ -3,6 +3,7 @@
 ### Proposta:
 - Utilizar Glass Effect em algum lugar da página
 - Listar os clientes em um array
+- Remover cliente da lista assim que ele for atendido
 
 <h3 align="center">Projeto realizado utilizando: </h3>
 
